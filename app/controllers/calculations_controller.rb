@@ -2,6 +2,7 @@ class CalculationsController < ApplicationController
   def instructions
     render("instructions.html.erb")
   end
+
  def sq
       @sq="1"
       @output=@sq
